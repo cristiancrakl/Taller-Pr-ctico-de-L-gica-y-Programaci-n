@@ -2,16 +2,16 @@ public class suscesion_fibonacci {
 
     public static void main(String[] args) {
 
-		int maxNumber = 50;
-		long previousNumber = 0;
-		long nextNumber = 1;
-		System.out.print("susecion de fibonacci para el numero: " + maxNumber  );
-		for (int i = 1; i <= maxNumber; ++i) {
-			System.out.print(previousNumber + " ");
+		int numeroMaximoSusecion = 50;
+		long numeroAnterior = 0;
+		long numeroSiguiente = 1;
+		System.out.print("susecion de fibonacci para el numero: " + numeroMaximoSusecion  );
+		for (int i = 1; i <= numeroMaximoSusecion; ++i) {
+			System.out.print(numeroAnterior + " ");
 
-			long sum = previousNumber + nextNumber;
-			previousNumber = nextNumber;
-			nextNumber = sum;
+			long suma = numeroAnterior + numeroSiguiente;
+			numeroAnterior = numeroSiguiente;
+			numeroSiguiente = suma;
 
 		}
 
