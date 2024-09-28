@@ -6,3 +6,6 @@ Si el número es divisible por ambos 3 y 5, se imprime “FizzBuzz”.
 Si el número no es divisible ni por 3 ni por 5, se imprime el número mismo.
 
 
+calcular area de un poligono segun lo desee el usuario
+
+
