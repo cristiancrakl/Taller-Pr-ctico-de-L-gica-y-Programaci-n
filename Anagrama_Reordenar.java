@@ -1,4 +1,6 @@
+//esto es para manipular arrays
 import java.util.Arrays;
+//esto es para importar el scanner
 import java.util.Scanner;
 
 public class Anagrama_Reordenar {
