@@ -13,9 +13,9 @@ public class suscesion_fibonacci {
 		for (int i = 1; i <= numeroMaximoSusecion; ++i) {
 			System.out.print(numeroAnterior + " ");
 
-			long suma = numeroAnterior + numeroSiguiente;
+			long  = numeroAnterior + numeroSiguiente;
 			numeroAnterior = numeroSiguiente;
-			numeroSiguiente = suma;
+			numeroSiguiente = ;
 
 		}
 
