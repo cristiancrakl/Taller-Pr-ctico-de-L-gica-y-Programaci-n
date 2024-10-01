@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Numero_Pimo {
     
     // Método para verificar si un número es primo
@@ -18,8 +20,13 @@ public class Numero_Pimo {
         return true;
     }
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
-        int numero = 29; // Puedes cambiar este valor para probar otros números
+        
+        Scanner scanner=new Scanner(System.in);
+        
+        System.out.println("ingrese el numero a ser probado");
+        int numero = scanner.nextInt(); // esto es para colocar el numero a probar
         
         if (esPrimo(numero)) {
             System.out.println(numero + " es un número primo.");

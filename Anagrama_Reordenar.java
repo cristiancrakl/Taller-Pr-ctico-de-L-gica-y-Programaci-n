@@ -29,16 +29,16 @@ public class Anagrama_Reordenar {
     }
 
     public static boolean sonAnagramas(String palabra1, String palabra2) {
-        // Eliminamos espacios en blanco y convertimos a minúsculas
+        // eliminamos espacios en blanco y convertimos a minúsculas
         palabra1 = palabra1.replaceAll("\\s", "").toLowerCase();
         palabra2 = palabra2.replaceAll("\\s", "").toLowerCase();
 
-        // Si las longitudes no coinciden, no pueden ser anagramas
+        // si las longitudes no coinciden, no pueden ser anagramas
         if (palabra1.length() != palabra2.length()) {
             return false;
         }
 
-        // Convertimos las cadenas a arreglos de caracteres
+        // convertimos las cadenas a arreglos de caracteres
         char[] arreglo1 = palabra1.toCharArray();
         char[] arreglo2 = palabra2.toCharArray();
 
